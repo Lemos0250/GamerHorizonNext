@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div>
       <Header/>
-          <div className='lg:mt-[5%] mt-[1%]'>
+          <div className='lg:mt-[5%] mt-[10%]'>
             <Bar/>
           </div>
           <div className='lg:mt-[5%] mt-[15%]'>
