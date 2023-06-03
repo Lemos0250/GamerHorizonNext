@@ -1,4 +1,5 @@
-
+import Image from "next/image";
+import User from '../../img/Astronaut.png'
 
 export default function Header() {
     return (
@@ -10,7 +11,12 @@ export default function Header() {
                 lg:w-[55%] lg:h-96 bg-[#5C5555] 
                 shadow-inner rounded-2xl
                 `}>
-                    <img></img>
+                    <Image
+                        src="/Spiderman.jpg"
+                        width={500}
+                        height={500}
+                        alt="Picture of the author"
+                    />
                 </div>
 
                 <div className="p-3 bg-black"></div>
