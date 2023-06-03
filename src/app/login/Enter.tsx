@@ -1,7 +1,7 @@
-import Acess from './components/Login/Acess'
+import Acess from '../components/Login/Acess'
 import Image from 'next/image'
 
-export default function Login() {
+export default function Enter() {
     return(
         
         <div>

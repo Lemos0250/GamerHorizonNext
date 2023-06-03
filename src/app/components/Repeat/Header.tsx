@@ -1,5 +1,5 @@
 import Image from "next/image";
-import User from '../../img/Astronaut.png'
+import User from '../../../../public/img/Astronaut.png'
 
 export default function Header() {
     return (
@@ -23,7 +23,7 @@ export default function Header() {
 
               <div className="flex rounded-xl justify-center items-center border-4 bg-white p-4">
               <Image
-                src="/Astronaut.png"
+                src={User}
                 width={20}
                 height={15}
                 alt="User Picture"
