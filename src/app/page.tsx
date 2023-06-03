@@ -1,10 +1,10 @@
 import Image from 'next/image'
 
 import Header  from './components/Repeat/Header'
-import Bar  from './components/Bar'
-import Principals from './components/Principals'
-import Popular from './components/Popular'
-import Games from './components/Games'
+import Bar  from './components/Principal/Bar'
+import Principals from './components/Principal/Principals'
+import Popular from './components/Principal/Popular'
+import Games from './components/Principal/Games'
 
 export default function Home() {
   return (
